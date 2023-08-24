@@ -1,0 +1,166 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #3d3d3d;
+}
+
+
+p {
+    font-size: 12px;
+    color: #828282;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.containerIzq {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    border: solid #c4c4c4 0.5px;
+}
+
+
+.boton {
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+
+.boton button {
+    padding: 10px 40px;
+    background-color: #ADA1D4;
+    color: white;
+    cursor: pointer;
+    border-color: white;
+}
+
+.boton button:hover {
+    background-color: #a08fd6;
+    color: aliceblue;
+}
+
+.contactos {
+}
+
+.barra_perfil img {
+    margin-right: 10px;
+}
+
+.barra_perfil_info {
+    padding: 10px 0px 10px 0px;
+}
+
+.barra {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    border-bottom: 1px solid #dddddd;
+}
+
+.barra_perfil {
+    display: flex;
+    align-items: center;
+}
+
+.barra_perfil img {
+    width: 35px;
+    height: 35px;
+    
+}
+
+.barra_icono {
+    color: #474747;
+    display: flex;
+    width: 29%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+}
+
+
+
+.contactoCard {
+    align-items: center;
+    height: 63px;
+    display: flex;
+    border-bottom: 1px solid #dddddd;
+    justify-content: flex-start;
+    padding: 10px 10px 10px 40px;
+}
+
+.contactoCard img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.contactoCard_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerDer {
+    width: 82%;
+    background-color: #f1f1f1;
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.containerDer-Segmento {
+    
+flex-direction: column;
+display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 10px;
+}
+
+.containerDer-Logo {
+    
+    width: 210px;
+    height: 210px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.containerDer-texto{
+   
+    flex-direction: column;
+    display: flex;
+        justify-content: center; 
+        align-items: center;
+}
+
+.containerDer-Title {
+    font-size: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.containerDer-P {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+   
+}
+
+.texto-light {
+    font-weight: lighter;
+}
